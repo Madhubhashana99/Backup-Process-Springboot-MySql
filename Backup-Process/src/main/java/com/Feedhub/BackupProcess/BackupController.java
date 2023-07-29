@@ -56,7 +56,7 @@ public class BackupController {
     }
 
 
-    @Scheduled(cron = "0 20 02 * * ?")
+    @Scheduled(cron = "0 24 20 * * ?")
     public void scheduleBackup() {
         try {
             createBackup();
